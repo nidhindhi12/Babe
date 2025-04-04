@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #E69DB8;
+    color: aliceblue;
+
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.container img {
+    max-width: 90%;
+}
+
+a button {
+    padding: 10px 25px;
+    border: 0;
+    margin-right: 12px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #EC7FA9;
+    color: white;
+    font-weight: 700;
+}
